@@ -1,6 +1,6 @@
 public class Matrices {
     public static void main(String[] args) {
-        system.out.println("Matrices");
+        System.out.println("Matrices");
 
         // Declarar una matriz forma 1
         int[][] matriz = {{5, 8, 6}, {1, 3, 2}, {4, 9, 7}};
@@ -21,7 +21,7 @@ public class Matrices {
             }
             cad += "|\n";
         }
-        system.out.println(cad);
+        System.out.println(cad);
         // Declarar una matriz de textos de 2 filas y 2 columnas
         String[][] nombres = new String[2][2];
     }
