@@ -27,6 +27,6 @@ public abstract class Sala {
     }
 
     public abstract boolean admitePelicula(Pelicula p);
-    public abstract int calcularPrecioSillo(int fila);
+    public abstract int calcularPrecioSilla(int fila);
     protected abstract char[][] generarMatrizAsientos();
 }
