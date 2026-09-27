@@ -23,7 +23,7 @@ public class SalaTradicional extends Sala {
         for (int i = 6; i < 8; i++) asientos[i] = new char[9];
 
         for (int i = 0; i < asientos.length; i++) {
-            for (int j = 0; j < asientos[i].length; j++) asientos[i][j] = 'O';
+            for (int j = 0; j < asientos[i].length; j++) asientos[i][j] = '_';
         }
         return asientos;
     }
