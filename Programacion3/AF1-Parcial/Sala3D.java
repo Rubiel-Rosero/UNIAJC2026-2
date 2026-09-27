@@ -17,7 +17,9 @@ public class Sala3D extends Sala {
     protected char[][] generarMatrizAsientos(){
         char[][] asientos = new char[6][12];
         for (int i = 0; i < asientos.length; i++){
-            for(int j = 0; j < asientos[i].length; j++) asientos[i][j] = 0;
+            for(int j = 0; j < asientos[i].length; j++){
+                asientos[i][j] = '_';
+            }
         }
         return asientos;
     }
