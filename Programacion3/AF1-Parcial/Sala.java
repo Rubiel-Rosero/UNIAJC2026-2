@@ -14,7 +14,7 @@ public abstract class Sala {
         return numero;
     }
     
-    public Funcion getFuncion(int franja, Pelicula p){
+    public Funcion getFuncion(int franja){
         return funciones[franja];
     }
 
