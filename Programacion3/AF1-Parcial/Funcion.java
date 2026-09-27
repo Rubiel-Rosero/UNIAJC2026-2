@@ -42,16 +42,22 @@ public class Funcion {
         System.out.println("\n--- PANTALLA ---");
         for (int i = asientos.length - 1; i >= 0; i--){
             char letra = (char) ('A' + i);
-            System.out.print(letra + "  ");
 
             if (asientos[i].length == 9){
-                System.out.print(" ");
+                System.out.print(letra + "        ");
+            }else{
+                System.out.print(letra + "    ");
             }
 
             for(int j = 0; j < asientos[i].length; j++){
-                System.out.print(asientos[i][j] + "  ");
+                System.out.print(asientos[i][j] + " ");
             }
             System.out.println();
+
+            if(asientos.length == 8 && i == 6){
+                System.out.println("  ---------------------------------");
+            }
         }
+        System.out.println("\n         |-----------------|");
     }
 }
