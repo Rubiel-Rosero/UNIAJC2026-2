@@ -43,6 +43,14 @@ public class CineApp {
             sc.close();
     }
     private static void crearPelicula(Scanner sc){
+        System.out.println("\n--- PELICULAS EN CARTELERA ---");
+        if (numPeliculas == 0){
+            System.out.println("(La cartelera esta vacia)");
+        }else{
+            for (int i = 0; i < numPeliculas; i++){
+                System.out.println("- " + cartelera[i].getNombre() + " (" + cartelera[i].getTipo() + ") ");
+            }
+        }
         System.out.println("\nNombre:");
         String nombre = sc.nextLine();
         System.out.println("Idioma:");
