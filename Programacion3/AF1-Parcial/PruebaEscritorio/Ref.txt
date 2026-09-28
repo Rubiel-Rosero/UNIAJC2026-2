@@ -1,0 +1,3 @@
+Shvets, A. (s.f.). Principios de diseño SOLID. Refactoring.Guru. Recuperado de https://refactoring.guru/es/design-patterns/catalog
+
+Álvarez, C. (2016). Java Polimorfismo y sus conceptos. Arquitectura Java. Recuperado de: https://www.arquitecturajava.com/java-polimorfismo-herencia-y-simplicidad/
