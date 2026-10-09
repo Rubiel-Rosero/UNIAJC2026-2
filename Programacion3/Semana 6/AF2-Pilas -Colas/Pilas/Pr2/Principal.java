@@ -7,7 +7,7 @@ public class Principal
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese una expresion para evaluar: ");
         String expresion = sc.nextLine();
-        while(!expresion.equalsIgnoreCase("si"))
+        while(!expresion.equalsIgnoreCase("salir"))
         {
             boolean equilibrada = validarExpresion.estaEquilibrado(expresion);
             if(equilibrada)
